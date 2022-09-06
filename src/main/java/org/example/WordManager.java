@@ -31,6 +31,7 @@ public class WordManager {
                 wordCRUD.addWordTOList();
             }// 단어추가
             else if(menu == 1) {
+                wordCRUD.listAll();
             }// 단어 보여주기
         }
     }
